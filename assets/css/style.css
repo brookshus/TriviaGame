@@ -1,8 +1,22 @@
 body{
- max-width: 500px;
-margin: auto;
-
+background-image: url(../images/background.jpg);
 }
-input[type="radio"]{
-    margin: 0 10px 0 10px;
+h1{
+    font-family: 'Finger Paint', cursive;
+    text-align: center;
+
   }
+.wrapper{
+    background-color: lightgrey;
+    margin: auto;
+    text-align: center;
+    width: 70%;
+}
+#start, #reset{
+    background-color: black;
+    border-color: black
+}
+
+
+
+

@@ -8,158 +8,17 @@
   <link rel="stylesheet" href="assets/css/style.css" type="text/css">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <script src="assets/javascript/game.js" type="text/javascript"></script>
+  <link href="https://fonts.googleapis.com/css?family=Finger+Paint" rel="stylesheet">
 </head>
 
-<body>
-  <div class="container">
-    <div class="row">
-<h1>
-    Buffy Trivia Madness!
-</h1>
-    </div>
-    <div class="row">
-      <h2 id= "timer"></h2>
-    </div>
-    
-    <div class="row question" id="Q1">
-        Who never died in Buffy?
-    </div>
-<br>
-    <div class="row answer" id="A1">
-      <input type="radio" name="death" value="Anya">     Anya
-      <br>
-      <input type="radio" name="death" value="Buffy"> Buffy
-      <br>
-      <input type="radio" name="death" value="Xander"> Xander
-      <br>
-      <input type="radio" name="death" value="Tara"> Tara
-    </div>
-<br>
-    <div class="row question" id="Q2">
-        Who never died in Buffy?
-    </div>
-<br>
-    <div class="row answer" id="A2">
-      <input type="radio" name="death" value="Anya">     Anya
-      <br>
-      <input type="radio" name="death" value="Buffy"> Buffy
-      <br>
-      <input type="radio" name="death" value="Xander"> Xander
-      <br>
-      <input type="radio" name="death" value="Tara"> Tara
-    </div>
-    <div class="row question" id="Q3">
-        Who never died in Buffy?
-    </div>
-<br>
-    <div class="row answer" id="A3">
-      <input type="radio" name="death" value="Anya">     Anya
-      <br>
-      <input type="radio" name="death" value="Buffy"> Buffy
-      <br>
-      <input type="radio" name="death" value="Xander"> Xander
-      <br>
-      <input type="radio" name="death" value="Tara"> Tara
-    </div>
-<br>
-    <div class="row question" id="Q4">
-        Who never died in Buffy?
-    </div>
-<br>
-    <div class="row answer" id="A4">
-      <input type="radio" name="death" value="Anya">     Anya
-      <br>
-      <input type="radio" name="death" value="Buffy"> Buffy
-      <br>
-      <input type="radio" name="death" value="Xander"> Xander
-      <br>
-      <input type="radio" name="death" value="Tara"> Tara
-    </div>
-<br>
-    <div class="row question" id="Q5">
-        Who never died in Buffy?
-    </div>
-<br>
-    <div class="row answer" id="A5">
-      <input type="radio" name="death" value="Anya">     Anya
-      <br>
-      <input type="radio" name="death" value="Buffy"> Buffy
-      <br>
-      <input type="radio" name="death" value="Xander"> Xander
-      <br>
-      <input type="radio" name="death" value="Tara"> Tara
-    </div>
-<br>
-    <div class="row question" id="Q6">
-        Who never died in Buffy?
-    </div>
-<br>
-    <div class="row answer" id="A6">
-      <input type="radio" name="death" value="Anya">     Anya
-      <br>
-      <input type="radio" name="death" value="Buffy"> Buffy
-      <br>
-      <input type="radio" name="death" value="Xander"> Xander
-      <br>
-      <input type="radio" name="death" value="Tara"> Tara
-    </div>
-<br>
-    <div class="row question" id="Q7">
-        Who never died in Buffy?
-    </div>
-<br>
-    <div class="row answer" id="A7">
-      <input type="radio" name="death" value="Anya">     Anya
-      <br>
-      <input type="radio" name="death" value="Buffy"> Buffy
-      <br>
-      <input type="radio" name="death" value="Xander"> Xander
-      <br>
-      <input type="radio" name="death" value="Tara"> Tara
-    </div>
-<br>
-    <div class="row question" id="Q8">
-        Who never died in Buffy?
-    </div>
-<br>
-    <div class="row answer" id="A8">
-      <input type="radio" name="death" value="Anya">     Anya
-      <br>
-      <input type="radio" name="death" value="Buffy"> Buffy
-      <br>
-      <input type="radio" name="death" value="Xander"> Xander
-      <br>
-      <input type="radio" name="death" value="Tara"> Tara
-    </div>
-<br>
-    <div class="row question" id="Q9">
-        Who never died in Buffy?
-    </div>
-<br>
-    <div class="row answer" id="A9">
-      <input type="radio" name="death" value="Anya">     Anya
-      <br>
-      <input type="radio" name="death" value="Buffy"> Buffy
-      <br>
-      <input type="radio" name="death" value="Xander"> Xander
-      <br>
-      <input type="radio" name="death" value="Tara"> Tara
-    </div>
-<br>
-    <div class="row question" id="Q10">
-        Who never died in Buffy?
-    </div>
-<br>
-    <div class="row answer" id="A10">
-      <input type="radio" name="death" value="Anya">     Anya
-      <br>
-      <input type="radio" name="death" value="Buffy"> Buffy
-      <br>
-      <input type="radio" name="death" value="Xander"> Xander
-      <br>
-      <input type="radio" name="death" value="Tara"> Tara
-    </div>
-
-
+<h1>Buffy Trivia</h1>
+<div class="wrapper">	
+  	<div id= "timeleft"></div>
+  	<div id= "questionblock"></div>
+  	<div id= "answerblock"></div>
+     <button class ="btn btn-success" id ="start">Start Game</button>
+     <br>
+  	<button class="btn btn-success" id="reset">Play Again?</button>
 </div>
 </body>
+</html>
